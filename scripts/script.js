@@ -14,7 +14,7 @@ $.get(`https://www.reddit.com/r/aww/.json`).then((data) => {
         <section class="post">
         <p class="title">${post.data.title}</p>
         <img src="${post.data.thumbnail}" >
-        <a href="${post.data.url}"></a>
+        <a href="${post.data.url}" class="learn-button">Learn More</a>
       </section>
         `)
     }})
